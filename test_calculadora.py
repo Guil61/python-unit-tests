@@ -7,7 +7,6 @@ class TestCalculadora:
     
     @pytest.fixture
     def calc(self):
-        """Fixture para criar uma instância da calculadora para cada teste"""
         return Calculadora()
     
     # Testes para soma
